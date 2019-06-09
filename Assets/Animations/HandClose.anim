@@ -4615,7 +4615,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Left Hand/Bone_L_Hand01/Bone_L_Hand02/Bone_L_Hand03/Bone_L_HandFinger01_01/Bone_L_HandFinger01_02
+    path: Left Hand/Bone_L_Hand01/Bone_L_Hand02/Bone_L_Hand03/Bone_L_HandFinger04_01/Bone_L_HandFinger04_02/Bone_L_HandFinger04_03
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -4625,7 +4625,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Left Hand/Bone_L_Hand01/Bone_L_Hand02/Bone_L_Hand03/Bone_L_HandFinger01_01/Bone_L_HandFinger01_02
+    path: Left Hand/Bone_L_Hand01/Bone_L_Hand02/Bone_L_Hand03/Bone_L_HandFinger04_01/Bone_L_HandFinger04_02/Bone_L_HandFinger04_03
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -4635,7 +4635,97 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: Left Hand/Bone_L_Hand01/Bone_L_Hand02/Bone_L_Hand03/Bone_L_HandFinger01_01/Bone_L_HandFinger01_02
+    path: Left Hand/Bone_L_Hand01/Bone_L_Hand02/Bone_L_Hand03/Bone_L_HandFinger04_01/Bone_L_HandFinger04_02/Bone_L_HandFinger04_03
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: Left Hand/Bone_L_Hand01/Bone_L_Hand02/Bone_L_Hand03/Bone_L_HandFinger02_01
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: Left Hand/Bone_L_Hand01/Bone_L_Hand02/Bone_L_Hand03/Bone_L_HandFinger02_01
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: Left Hand/Bone_L_Hand01/Bone_L_Hand02/Bone_L_Hand03/Bone_L_HandFinger02_01
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: Left Hand/Bone_L_Hand01/Bone_L_Hand02/Bone_L_Hand03/Bone_L_HandFinger02_01/Bone_L_HandFinger02_02
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: Left Hand/Bone_L_Hand01/Bone_L_Hand02/Bone_L_Hand03/Bone_L_HandFinger02_01/Bone_L_HandFinger02_02
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: Left Hand/Bone_L_Hand01/Bone_L_Hand02/Bone_L_Hand03/Bone_L_HandFinger02_01/Bone_L_HandFinger02_02
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: Left Hand/Bone_L_Hand01/Bone_L_Hand02/Bone_L_Hand03/Bone_L_HandFinger02_01/Bone_L_HandFinger02_02/Bone_L_HandFinger02_03
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: Left Hand/Bone_L_Hand01/Bone_L_Hand02/Bone_L_Hand03/Bone_L_HandFinger02_01/Bone_L_HandFinger02_02/Bone_L_HandFinger02_03
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: Left Hand/Bone_L_Hand01/Bone_L_Hand02/Bone_L_Hand03/Bone_L_HandFinger02_01/Bone_L_HandFinger02_02/Bone_L_HandFinger02_03
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -4735,36 +4825,6 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Left Hand/Bone_L_Hand01/Bone_L_Hand02/Bone_L_Hand03/Bone_L_HandFinger04_01
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.y
-    path: Left Hand/Bone_L_Hand01/Bone_L_Hand02/Bone_L_Hand03/Bone_L_HandFinger04_01
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: Left Hand/Bone_L_Hand01/Bone_L_Hand02/Bone_L_Hand03/Bone_L_HandFinger04_01
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
     path: Left Hand/Bone_L_Hand01/Bone_L_Hand02/Bone_L_Hand03/Bone_L_HandFinger04_01/Bone_L_HandFinger04_02
     classID: 4
     script: {fileID: 0}
@@ -4795,7 +4855,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Left Hand/Bone_L_Hand01/Bone_L_Hand02/Bone_L_Hand03/Bone_L_HandFinger04_01/Bone_L_HandFinger04_02/Bone_L_HandFinger04_03
+    path: Left Hand/Bone_L_Hand01/Bone_L_Hand02/Bone_L_Hand03/Bone_L_HandFinger04_01
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -4805,7 +4865,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Left Hand/Bone_L_Hand01/Bone_L_Hand02/Bone_L_Hand03/Bone_L_HandFinger04_01/Bone_L_HandFinger04_02/Bone_L_HandFinger04_03
+    path: Left Hand/Bone_L_Hand01/Bone_L_Hand02/Bone_L_Hand03/Bone_L_HandFinger04_01
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -4815,7 +4875,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: Left Hand/Bone_L_Hand01/Bone_L_Hand02/Bone_L_Hand03/Bone_L_HandFinger04_01/Bone_L_HandFinger04_02/Bone_L_HandFinger04_03
+    path: Left Hand/Bone_L_Hand01/Bone_L_Hand02/Bone_L_Hand03/Bone_L_HandFinger04_01
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -4885,36 +4945,6 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Left Hand/Bone_L_Hand01/Bone_L_Hand02/Bone_L_Hand03/Bone_L_HandFinger02_01
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.y
-    path: Left Hand/Bone_L_Hand01/Bone_L_Hand02/Bone_L_Hand03/Bone_L_HandFinger02_01
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: Left Hand/Bone_L_Hand01/Bone_L_Hand02/Bone_L_Hand03/Bone_L_HandFinger02_01
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
     path: Left Hand/Bone_L_Hand01/Bone_L_Hand02/Bone_L_Hand03/Bone_L_HandFinger01_01/Bone_L_HandFinger01_02/Bone_L_HandFinger01_03
     classID: 4
     script: {fileID: 0}
@@ -4945,7 +4975,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Left Hand/Bone_L_Hand01/Bone_L_Hand02/Bone_L_Hand03/Bone_L_HandFinger02_01/Bone_L_HandFinger02_02/Bone_L_HandFinger02_03
+    path: Left Hand/Bone_L_Hand01/Bone_L_Hand02/Bone_L_Hand03/Bone_L_HandFinger01_01/Bone_L_HandFinger01_02
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -4955,7 +4985,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Left Hand/Bone_L_Hand01/Bone_L_Hand02/Bone_L_Hand03/Bone_L_HandFinger02_01/Bone_L_HandFinger02_02/Bone_L_HandFinger02_03
+    path: Left Hand/Bone_L_Hand01/Bone_L_Hand02/Bone_L_Hand03/Bone_L_HandFinger01_01/Bone_L_HandFinger01_02
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -4965,37 +4995,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: Left Hand/Bone_L_Hand01/Bone_L_Hand02/Bone_L_Hand03/Bone_L_HandFinger02_01/Bone_L_HandFinger02_02/Bone_L_HandFinger02_03
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
-    path: Left Hand/Bone_L_Hand01/Bone_L_Hand02/Bone_L_Hand03/Bone_L_HandFinger02_01/Bone_L_HandFinger02_02
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.y
-    path: Left Hand/Bone_L_Hand01/Bone_L_Hand02/Bone_L_Hand03/Bone_L_HandFinger02_01/Bone_L_HandFinger02_02
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: Left Hand/Bone_L_Hand01/Bone_L_Hand02/Bone_L_Hand03/Bone_L_HandFinger02_01/Bone_L_HandFinger02_02
+    path: Left Hand/Bone_L_Hand01/Bone_L_Hand02/Bone_L_Hand03/Bone_L_HandFinger01_01/Bone_L_HandFinger01_02
     classID: 4
     script: {fileID: 0}
   - curve:

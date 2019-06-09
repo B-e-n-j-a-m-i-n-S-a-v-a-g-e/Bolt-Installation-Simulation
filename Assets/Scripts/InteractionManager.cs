@@ -16,7 +16,7 @@ public class InteractionManager : MonoBehaviour
     private bool havePerformedOutsideGrab = false;
     private bool wrenchInTargetPosition = false;
     private bool haveRotatedWrench = false;
-    private bool wrenchAffixedToHand = false;
+    public bool wrenchAffixedToHand = false;
     private int wrenchRotationYAmount = -90;
 
     void Update()
@@ -43,7 +43,7 @@ public class InteractionManager : MonoBehaviour
             {
                 AlignWrenchWithHand();
             }
-            wrench.transform.position = new Vector3(leftHand.transform.position.x + 4, leftHand.transform.position.y + 1.6f, leftHand.transform.position.z);
+                wrench.transform.position = new Vector3(leftHand.transform.position.x + 4, leftHand.transform.position.y + 1.6f, leftHand.transform.position.z);
         }
     }
 
@@ -92,6 +92,9 @@ public class InteractionManager : MonoBehaviour
     {
         Destroy(wrench.GetComponent<Collider>());
         wrench.transform.Rotate(wrenchRotationYAmount, 0, 0, Space.World);
+        BoxCollider collider = wrench.AddComponent<BoxCollider>();
+        collider.center = new Vector3(5, 0, 0);
+        collider.size = new Vector3(40, 60, 15);
         haveRotatedWrench = true;
     }
 }

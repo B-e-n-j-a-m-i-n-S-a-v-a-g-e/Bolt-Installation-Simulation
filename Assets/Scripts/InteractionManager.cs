@@ -12,6 +12,7 @@ public class InteractionManager : MonoBehaviour
     public bool wrenchAffixedToHand = false;
     public bool handConstrainedByWrench = false;
 
+    private bool havePlayedPickUpSFX = false;
     private bool havePlayedWrenchTurnSFX = false;
     private bool haveBegunWrenchManipulation = false;
 
@@ -65,7 +66,7 @@ public class InteractionManager : MonoBehaviour
         if (Input.GetMouseButtonDown(0) && !wrenchAffixedToHand)
         {
      
-            if (!havePerformedOutsideGrab)
+            if (!havePerformedOutsideGrab && handHit.collider.gameObject.tag != "Wrench")
             {
                 handContainer.GetComponent<Animator>().SetTrigger("PerformGrab");
                 havePerformedOutsideGrab = true;
@@ -114,6 +115,13 @@ public class InteractionManager : MonoBehaviour
                 AlignWrenchMovementWithHand();
             }
             wrench.transform.position = new Vector3(leftHand.transform.position.x + handShiftX, leftHand.transform.position.y + handShiftY, leftHand.transform.position.z);
+
+            if (!havePlayedPickUpSFX)
+            {
+                leftHand.GetComponent<AudioSource>().Play();
+                havePlayedPickUpSFX = true;
+            }
+         
         }
     }
 
@@ -137,6 +145,7 @@ public class InteractionManager : MonoBehaviour
             if (bolt.transform.position.z <= maxBoltZPosition)
             {
                 bolt.transform.position += new Vector3(0, 0, boltTurnIncrement);
+                bolt.transform.RotateAround(bolt.transform.position, Vector3.back, Input.GetAxis("Mouse X") * 4);
 
                 if (!havePlayedWrenchTurnSFX)
                 {

@@ -8,11 +8,13 @@ public class WrenchManipulation : MonoBehaviour
     public GameObject cam;
     public GameObject hand;
 
+    public bool attachWrenchToBolt = false;
 
     private float wrenchShiftX = 0.2f;
-    private float wrenchShiftZ = 0.6f;
+    private float wrenchShiftZ = 0.22f;
 
-    private bool attachWrenchToBolt = false;
+    private bool havePlayedWrenchToBoltSFX = false;
+
 
     public void Update()
     {
@@ -38,7 +40,12 @@ public class WrenchManipulation : MonoBehaviour
             cam.GetComponent<InteractionManager>().handConstrainedByWrench = true;
             this.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.None;
             this.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationY | RigidbodyConstraints.FreezeRotationZ | RigidbodyConstraints.FreezePositionX | RigidbodyConstraints.FreezePositionY;
-            this.GetComponent<AudioSource>().Play();
+
+            if (!havePlayedWrenchToBoltSFX)
+            {
+                this.GetComponent<AudioSource>().Play();
+                havePlayedWrenchToBoltSFX = true;
+            }
         }
     }
 }
